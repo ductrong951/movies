@@ -353,20 +353,21 @@ h3{
 }
 
 .year-info{
-    font-size: 1em;
+    font-size: 0.9em;
     color: rgb(193, 170, 170);
     padding: 0;
 }
 
 .info-item{
     position: absolute;
-    bottom: 12px;
+    bottom: 4px;
     left: 16px;
 }
 
 .image{
     width: 280px;
     height: 160px;
+    filter: saturate(130%) brightness(90%) drop-shadow(2px 4px 6px red);
 }
 
 .image-item{
