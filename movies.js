@@ -1,4 +1,4 @@
-var moviesAPI = 'https://62d56557d4406e523559e4aa.mockapi.io/movies'
+var moviesAPI = 'https://62d6122dd4406e5235642e46.mockapi.io/movies'
 
 document.addEventListener('DOMContentLoaded', (event) => {
    
