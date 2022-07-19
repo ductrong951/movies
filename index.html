@@ -140,28 +140,6 @@
                         </li>
                         <li class="embla__slide movies-list">
                         </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
-                        <li class="embla__slide movies-list">
-                        </li>
                     </div>
                     <button class="embla__prev"></button>
                     <button class="embla__next"></button>
@@ -431,7 +409,7 @@
     let emblaNodes = document.querySelectorAll(".embla");
 
     emblaNodes.forEach(function (emblaNode, i) {
-    let options = { loop: true, slidesToScroll: 1, align: 0, startIndex: 0, speed: 10 };
+    let options = { loop: false, slidesToScroll: 1, align: 0, startIndex: 0, speed: 10 };
     var plugins = [EmblaCarouselAutoplay()]
     let embla = EmblaCarousel(emblaNode, options, plugins);
 
