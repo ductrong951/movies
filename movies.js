@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                                 <img class="movies-img" src="${movie.image}" alt="">
                             </a>
                             <div class="tittle-movies">
-                                <div class="tittle">${movie.title}
+                                <div class="tittle">${movie.titleOriginal}
                                     <p>${movie.year}</p>
                                 </div>
                                 <div class="watch-btn">
